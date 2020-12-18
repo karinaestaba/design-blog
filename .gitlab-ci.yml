@@ -1,10 +1,9 @@
-image: alpine:latest
+image: node:latest
+
 pages:
   stage: deploy
   script:
-  - echo 'Nothing to do...'
+    - echo nothing to do
   artifacts:
     paths:
-    - public/
-  only:
-  - master
+    - public
