@@ -265,6 +265,21 @@ footer .logo span{
     padding: 0;
 }
 
+.credits{
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.credits a{
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.credits a:hover{
+    opacity: .8;
+}
+
 @media(max-width: 767px){
     .search-form-btn{
         margin-top: 1em;
